@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/icon_image_view"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:src="@drawable/ic_phone"
+        android:contentDescription="@string/content_desc_icon"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/value_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/minimum_margin"
+        android:layout_marginBottom="0dp"
+        android:textSize="16sp"
+        android:layout_toEndOf="@id/icon_image_view"/>
+
+
+    <TextView
+        android:id="@+id/type_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="@dimen/minimum_margin"
+        android:layout_below="@id/value_text_view"
+        android:textSize="12sp"
+        android:layout_alignStart="@+id/value_text_view"
+        android:text="@string/work"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@id/type_text_view"
+        android:layout_toEndOf="@id/icon_image_view"
+        android:layout_marginStart="@dimen/default_margin"/>
+
+</RelativeLayout>

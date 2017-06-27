@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Contacts</string>
+
+    <string name="work">Trabajo</string>
+    <string name="home">Casa</string>
+    <string name="cell">Celular</string>
+    <string name="birth_date">Fecha de nacimiento</string>
+
+    <!-- Content descriptions -->
+    <string name="content_desc_thumb">Imagen del contacto</string>
+    <string name="content_desc_icon">Icono</string>
+
+    <!-- Titles -->
+    <string name="title_contact_detail">Detalles del contacto</string>
+
+    <!-- Errors -->
+    <string name="error_connection_main">Ups! Estás sin conexión a internet. \nCuando regrese deslizá hacia abajo la pantalla o actualizá desde el menú.</string>
+    <string name="error_connection_detail">Ups! Estás sin conexión a internet.</string>
+    <string name="error_unexpected_main">Ups, tuvimos un error, te pedimos disculpas! \nProbá actualizar deslizando hacia abajo la pantalla.</string>
+    <string name="error_unexpected_detail">Ups, tuvimos un error, te pedimos disculpas!</string>
+
+    <!-- Menu -->
+    <string name="menu_search">Buscar</string>
+    <string name="menu_refresh">Actualizar</string>
+</resources>
